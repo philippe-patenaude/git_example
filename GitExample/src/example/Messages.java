@@ -18,4 +18,8 @@ public class Messages {
 		return str;
 	}
 	
+	public static String getAsString(int number) {
+		return Integer.toString(number);
+	}
+	
 }
