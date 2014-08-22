@@ -16,7 +16,8 @@ public class Main {
 		System.out.println("Hello World!");
 		System.out.println("Output message!");
 		
-		JOptionPane.showMessageDialog(null, new Date());
+		JOptionPane.showMessageDialog(null, "The current date is " + (new Date()));
+		
 	}
 
 }
