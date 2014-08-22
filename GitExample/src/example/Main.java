@@ -1,5 +1,7 @@
 package example;
 
+import java.util.Date;
+
 import javax.swing.JOptionPane;
 
 public class Main {
@@ -9,6 +11,7 @@ public class Main {
 		System.err.println("This is an error message.");
 		System.out.println("Hello World!");
 		System.out.println("Output message!");
+		JOptionPane.showMessageDialog(null, new Date());
 	}
 
 }
