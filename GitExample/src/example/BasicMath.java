@@ -14,4 +14,8 @@ public class BasicMath {
 		return num1 * num1;
 	}
 	
+	public int divide(int num1, int num2) {
+		return num1 / num1;
+	}
+	
 }
